@@ -8,13 +8,13 @@ public class PreExam {
 
     private String gakusekiCode;
     private String familyName;
-    private String fristName;
+    private String firstName;
     private int point;
 
     public PreExam(String gakusekiCode, String familyName, String firstName, int point) {
         this.gakusekiCode = gakusekiCode;
         this.familyName = familyName;
-        this.fristName = firstName;
+        this.firstName = firstName;
         this.point = point;
     }
 
